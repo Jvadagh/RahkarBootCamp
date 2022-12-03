@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+            .fisrtTag ~ ul {
+                background: #5de4ee;
+                border-radius: 10px;} 
+            /*به شکل های زیر قابل استفاده است
+            .class1 ~ .class2 or #id1 ~ #id2 or Tag1 ~ Tag2 
+            در ضمن امکان ترکیب سه حالت بالا هم هست
+            مثال زده شده ترکیبی از این سه حالت می باشد*/
+        </style>
+    </head>
+    <body>
+        <!-- به کمک کاراکتر ~ میتوان به عناصری بعد از یک تگ (یا تگی که از کلاس یا آیدی استفاده کرده است) کد سی اس اس خاصی را اعمال کرد  -->
+        <ul>
+            <li>javad</li>
+            <li>amir</li>
+            <li>ali</li>
+        </ul>
+        <div class="fisrtTag" >A element (with fisrtTag class).</div>
+        <ul>
+            <li>javad</li>
+            <li>amir</li>
+            <li>ali</li>
+        </ul>
+
+        <p>An other tag(/p) .</p>
+        <ul>
+            <li>javad</li>
+            <li>amir</li>
+            <li>ali</li>
+        </ul>
+
+        <h2>Another list</h2>
+        <ul>
+            <li>javad</li>
+            <li>amir</li>
+            <li>ali</li>
+        </ul>
+        <br><hr><br><hr>
+        <p dir="rtl" style="font-size: large; font-style:italic; background-color: antiquewhite ;border-radius: 10px;">
+        به کمک کاراکتر "~" میتوان به عناصری بعد از یک تگ (یا تگی که از کلاس یا آیدی استفاده کرده است) کد سی اس اس خاصی را اعمال کرد  
+            <br>
+            به شکل های زیر قابل استفاده است :
+            <br>
+            .class1 ~ .class2 or #id1 ~ #id2 or Tag1 ~ Tag2 
+            <br>
+            در ضمن امکان ترکیب سه حالت بالا هم هست
+            <br>
+            مثال زده شده ترکیبی از کلاس و تگ می باشد
+            <br><hr><br><hr>
+        </p>
+    </body>
+</html>
